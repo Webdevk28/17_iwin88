@@ -1,0 +1,232 @@
+@media (min-width: 320px) and (max-width: 480px){
+    .smart{
+        overflow: hidden;
+    }
+    .smart .smart-item{
+        width: 100%;
+    }
+    .head{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .head .logo{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .head .head-menu,
+    .head .login{
+        display: none;
+    }
+    .head .close-button{
+        display: block!important;
+    }
+    /* body */
+    .body{
+        display: flex;
+        flex-direction: column!important;
+    }
+    .body .body-content{
+        width: 100%;
+        padding: 12px;
+    }
+    /* item */
+    .body .trang-img{
+        width: 100%;
+    }
+    /* tham gia iwin88 */
+    .body .cover-img{
+        width: 100%;
+    }
+    .body .cards {
+        --columns: 1;
+    }
+    .bosba {
+        --columns: 1;
+      }
+    .footered .footers {
+        --columns: 1;
+    }
+    .footered .footer{
+        margin: 0 30px;
+        padding: 5px;
+    }
+    .body .ream-title{
+        margin: 0;
+    }
+    /* slide */
+    .body .slider .carded{
+        margin: 0 5px;
+    }
+    .body .slider .carded .img{
+        height: 80px;
+        width: 100%;
+      }
+      .carded .btn button{
+        font-size: 10px;
+        padding: 1px 5px;
+      }
+
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+    .smart{
+        overflow: hidden;
+    }
+    .smart .smart-item{
+        width: 100%;
+    }
+    .head{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .head .logo{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .head .head-menu,
+    .head .login{
+        display: none;
+    }
+    .head .close-button{
+        display: block!important;
+    }
+    /* body */
+    .body{
+        display: flex;
+        flex-direction: column!important;
+    }
+    .body .body-content{
+        width: 100%;
+        padding: 12px;
+    }
+    /* item */
+    .body .trang-img{
+        width: 60%;
+    }
+    /* tham gia iwin88 */
+    .body .cover-img{
+        width: 60%;
+    }
+    .body .cards {
+        --columns: 1;
+    }
+    .body .notes{
+        --columns: 3;
+    }
+    .bosba {
+        --columns: 2;
+      }
+    .footered .footers {
+        --columns: 1;
+    }
+    .footered .footer{
+        margin: 0 30px;
+        padding: 5px;
+    }
+    .body .ream-title{
+        margin: 0;
+    }
+    /* slide */
+    .body .slider .carded{
+        margin: 0 5px;
+    }
+    .body .slider .carded .img{
+        height: 200px;
+        width: 100%;
+      }
+      .carded .btn button{
+        font-size: 12px;
+        padding: 1px 8px;
+      }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1025px){
+    .smart{
+        overflow: hidden;
+    }
+    .smart .smart-item{
+        width: 100%;
+    }
+    .head{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .head .logo{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .head .head-menu,
+    .head .login{
+        display: none;
+    }
+    .head .close-button{
+        display: block!important;
+    }
+    /* body */
+    .body{
+        display: flex;
+        flex-direction: column!important;
+    }
+    .body .body-content{
+        width: 100%;
+        padding: 12px;
+    }
+    /* item */
+    .body .trang-img{
+        width: 50%;
+    }
+    /* tham gia iwin88 */
+    .body .cover-img{
+        width: 40%;
+    }
+    .body .cards {
+        --columns: 1;
+    }
+    .body .notes{
+        --columns: 5;
+    }
+    .bosba {
+        --columns: 3;
+      }
+    .footers {
+        --columns: 4;
+    }
+    .footered .footer{
+        margin: 0 30px;
+        padding: 5px;
+    }
+    .body .ream-title{
+        margin: 0;
+    }
+    /* slide */
+    .body .slider .carded{
+        margin: 0 5px;
+    }
+    .body .slider .carded .img{
+        height: 250px;
+        width: 100%;
+      }
+      .carded .btn button{
+        font-size: 12px;
+        padding: 1px 8px;
+      }
+      .down-image{
+        width: 50%;
+      }
+
+    .body .video-img{
+        width: 70%;
+    }
+
+}

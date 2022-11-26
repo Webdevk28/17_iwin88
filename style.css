@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500&family=Dancing+Script:wght@500&family=Darker+Grotesque:wght@500&family=EB+Garamond&family=Montserrat:wght@500&family=Poppins&family=Quicksand:wght@500&family=Tinos&family=Zilla+Slab:wght@500&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: #311c5b;
+}
+.body{
+    background-image: linear-gradient(to right top, #051937, #004d7a, #A178DF, #fc2a2a, #cdfa2b);
+    font-family: 'Poppins', sans-serif;
+}
+.head{
+    background-color: #f5f5f5;
+}
+
+/* card */
+.cards {
+    --spacing: 25px;
+    --columns: 3;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * var(--spacing));
+  }
+.footers {
+    --spacing: 25px;
+    --columns: 4;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * var(--spacing));
+  }
+  /* card */
+  .card {
+    overflow: hidden;
+    width: calc(calc(100% / var(--columns)) - var(--spacing));
+    margin-left: var(--spacing);
+    margin-bottom: var(--spacing);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer {
+    overflow: hidden;
+    width: calc(calc(100% / var(--columns)) - var(--spacing));
+    margin-left: var(--spacing);
+    margin-bottom: var(--spacing);
+  }
+  .card-image {
+    width: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+    margin-top: 10px;
+  }
+  .card-top {
+    padding: 25px;
+  }
+  .footer-top {
+    padding: 25px;
+  }
+  .card-title {
+    margin-bottom: 25px;
+    word-break: break-all;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+  }
+  .card-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  /* second */
+  /* bosba-list */
+  .bosba {
+    --spacing: 25px;
+    --columns: 3;
+    margin-left: calc(-1 * var(--spacing));
+  }
+  .ream {
+    width: calc(calc(100% / var(--columns)) - var(--spacing));
+    margin-left: var(--spacing);
+    margin-bottom: var(--spacing);
+  }
+  .ream-title {
+    word-break: break-all;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+  }
+
+  /* third */
+  /* notes-list */
+  .notes {
+    --spacing: 25px;
+    --columns: 2;
+    margin-left: calc(-1 * var(--spacing));
+  }
+  .note {
+    width: calc(calc(100% / var(--columns)) - var(--spacing));
+    margin-left: var(--spacing);
+    margin-bottom: var(--spacing);
+  }
+  .note-title {
+    word-break: break-all;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+  }
+  /* slider */
+  .slider{
+    max-width: 1100px;
+    display: flex;
+    padding: 10px 0;
+  }
+  .slider .carded{
+    flex: 1;
+    margin: 0 10px;
+    background: #fff;
+  }
+  .slider .carded .img{
+    height: 250px;
+    width: 100%;
+  }
+  .slider .carded .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+  }
+  .carded .btn{
+    display: block;
+    text-align: center;
+    padding: 10px ;
+  }
+  .carded .btn button{
+    background: #e74c3c;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding: 1px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  .carded .content .btn button:hover{
+    transform: scale(0.9);
+  }
